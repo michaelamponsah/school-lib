@@ -1,11 +1,10 @@
 class Teacher < Person
-
-  def initialize(specialization )
+  def initialize(specialization)
     super()
-    @specialization  = specialization 
+    @specialization = specialization
   end
 
   def can_use_services?()
-    return true
+    true
   end
 end
