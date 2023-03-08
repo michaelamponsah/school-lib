@@ -81,6 +81,8 @@ Clone this repository to your desired folder:
 - mkdir my-workspace
 - cd  my-workspace
 - git clone [(https://github.com/michaelamponsah/school-lib.git)]
+- cd school-lib
+- Open school-lib directory in your favourite Code Editor or IDE
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +123,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
+If you like this project, don't forget to give me a star 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +132,7 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank...
+I would like to thank Microverse for making available the resources for this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
