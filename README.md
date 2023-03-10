@@ -90,8 +90,6 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 
 - GitHub: [@michaelamponsah](https://github.com/michaelamponsah)
 - Twitter: [@_mikeamponsah](https://twitter.com/_mikeamponsah)
@@ -104,7 +102,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **I would appreciate your suggestions**
+- [ ] **I would add a UI to the project**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
