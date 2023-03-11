@@ -3,11 +3,11 @@ require './app'
 # rubocop:disable Metrics/CyclomaticComplexity
 def main
   app = App.new
-  exit_button = true
+  execute = true
 
   puts "\nWelcome to School Library App!"
 
-  while exit_button
+  while execute
     options = [
       '',
       ' 1 - List all books',
@@ -38,7 +38,7 @@ def main
       app.list_all_rentals
     else
       puts 'Goodbye!'
-      exit_button = false
+      execute = false
     end
   end
 end
