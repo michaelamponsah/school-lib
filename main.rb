@@ -1,6 +1,5 @@
 require './app'
 
-rubocop:disable Metrics/CyclomaticComplexity
 def main
   app = App.new
   execute = true
