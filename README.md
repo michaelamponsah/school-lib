@@ -83,6 +83,7 @@ Clone this repository to your desired folder:
 - git clone [(https://github.com/michaelamponsah/school-lib.git)]
 - cd school-lib
 - Open school-lib directory in your favourite Code Editor or IDE
+- Run `ruby main.rb` in your terminal
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
