@@ -1,11 +1,10 @@
 require './app'
+# rubocop:disable Metrics/CyclomaticComplexity
 
 def main
   app = App.new
   execute = true
-
   puts "\nWelcome to School Library App!"
-
   while execute
     options = [
       '',
@@ -43,3 +42,4 @@ def main
 end
 
 main
+# rubocop:enable Metrics/CyclomaticComplexity
