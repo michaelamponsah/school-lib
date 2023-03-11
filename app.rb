@@ -138,7 +138,7 @@ class App
   end
 
   def add_rental(rental_date, rented_book, renter)
-    new_rental = Rental.new(rental_date,  @persons[renter.to_i], @books[rented_book.to_i])
+    new_rental = Rental.new(rental_date, @persons[renter.to_i], @books[rented_book.to_i])
     @rentals << new_rental
   end
 end

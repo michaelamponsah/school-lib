@@ -7,12 +7,12 @@ class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age, :rentals
 
-  def initialize(age, name = 'Unknown', _parent_permission)
+  def initialize(age, name, parent_permission)
     super()
     @id = Random.rand(1..1000)
     @name = name
     @age = age
-    @parent_permission = _parent_permission
+    @parent_permission = parent_permission
     @rentals = []
   end
 

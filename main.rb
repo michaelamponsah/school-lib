@@ -1,6 +1,6 @@
 require './app'
 
-# rubocop:disable Metrics/CyclomaticComplexity
+rubocop:disable Metrics/CyclomaticComplexity
 def main
   app = App.new
   execute = true
@@ -43,4 +43,4 @@ def main
   end
 end
 
-main()
+main
