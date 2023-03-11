@@ -6,8 +6,10 @@ class Rental
 
     @person = person
     person.add_rental(self)
+    # person.rentals << self
 
     @book = book
     book.add_rental(self)
+    # book.rentals << self
   end
 end
