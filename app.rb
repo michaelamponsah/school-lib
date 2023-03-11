@@ -16,7 +16,7 @@ class App
   def list_all_people
     if persons.length.positive?
       @persons.each_with_index do |person, index|
-        print "\n [#{index}] [#{person.type}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+        print "\n [#{index}] [#{person.type}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age} "
       end
     else
       puts "\nNo persons found"
@@ -26,7 +26,7 @@ class App
   def list_all_books
     if books.length.positive?
       @books.each_with_index do |book, index|
-        print "\n [#{index}] [#{book}] Title: #{book.title}, Author: #{book.author}"
+        print "\n[#{index}] [#{book}] Title: #{book.title}, Author: #{book.author} "
       end
     else
       puts "\nNo books found"
@@ -44,7 +44,7 @@ class App
   def list_rental_by_id(person_id)
     @rentals.each do |rental|
       if rental.person.id == person_id
-        puts "\nDate: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}"
+        puts "\nDate: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author} "
       else
         puts 'No such person'
       end
@@ -53,7 +53,7 @@ class App
 
   # create methods
   def create_person
-    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]:'
+    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
     number = gets.chomp
     case number
     when '1'
@@ -61,7 +61,7 @@ class App
     when '2'
       create_teacher
     else
-      puts '\nSelect a valid option'
+      puts "\nSelect a valid option"
       nil
     end
   end
@@ -71,7 +71,7 @@ class App
     student_age = gets.chomp
     print 'Name: '
     student_name = gets.chomp.capitalize
-    print 'Has parent permision? [Y/N]:'
+    print 'Has parent permision? [Y/N]: '
     student_parent_permission = gets.chomp
     permission = case student_parent_permission.downcase
                  when 'y'
@@ -125,7 +125,7 @@ class App
       print "Select a book from the following list by number: \n"
       list_all_books
       rented_book = gets.chomp.capitalize
-      puts 'Select a person from the following list by number (not id): '
+      puts "\nSelect a person from the following list by number (not id): "
       list_all_people
       renter = gets.chomp.capitalize
       puts 'Date [yyyy/mm/dd]: '
