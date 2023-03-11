@@ -35,7 +35,7 @@ class App
 
   def list_all_rentals
     list_all_people
-    print 'ID of person: '
+    print "\n\nID of person: "
     person_id = gets.chomp
     puts 'Rentals: '
     list_rental_by_id(person_id.to_i)
